@@ -1,0 +1,1 @@
+Before you start working with the model, you need to download v1-5-pruned-emaonly.ckpt file from https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt
