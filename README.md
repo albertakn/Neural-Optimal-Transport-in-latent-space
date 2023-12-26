@@ -13,14 +13,15 @@ So your folders should be like this:
     text_2_image(-main)/
     ├─ data/
     │  ├─ ldm_weights/
-    │  │    ├─ v1-5-pruned-emaonly.ckpt
+    │  │  ├─ v1-5-pruned-emaonly.ckpt
     │  │
     │  ├─ ...
-    ├─ stable_diffusion/
-    │  ├─ modules/
+    ├─ notebooks/
+    │  ├─ NOT_in_latent_space_training_example.ipynb
     │  ├─ ...
-    ├─ dreambooth/ 
-    │  ├─ dreambooth.py
+    ├─ src/ 
+    │  ├─ vae/
+    │  │  ├─ ...
     │  ├─  ...
     ...
     └── 
