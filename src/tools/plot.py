@@ -1,5 +1,7 @@
+import gc
+import torch
 from matplotlib import pyplot as plt
-
+from .utils import rescale
 
 def plot_original(batch):
     fig, axes = plt.subplots(1, 5, figsize=(10, 1), dpi=100)
@@ -11,7 +13,7 @@ def plot_original(batch):
     fig.tight_layout(pad=0.1)
 
 
-def plot_many_images(multibatch):
+def plot_many_images(multibatch, models, DEVICE):
     fig, axes = plt.subplots(4, 5, figsize=(10, 4), dpi=100)
     for i in range(5):
         with torch.no_grad():
@@ -23,6 +25,6 @@ def plot_many_images(multibatch):
         decoded_batch = decoded_batch.to("cpu", torch.uint8)
 
         for j in range(4):
-            axes[j, i].imshow(decoded_batch[j].mul(0.5).add(0.5).clip(0,1).permute((1,2,0)))
+            axes[j, i].imshow(decoded_batch[j].permute((1,2,0)))
             axes[j, i].set_xticks([]); axes[j, i].set_yticks([])
     fig.tight_layout(pad=0.1)
