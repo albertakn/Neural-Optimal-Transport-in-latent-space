@@ -26,7 +26,7 @@ So your folders should be like this:
     ...
     └── 
 
-NOT model weights (should be placed in data/NOT_model_weights):
+NOT model weights (should be placed in data/NOT_model_weights/):
 
    64x64:
    
@@ -50,7 +50,7 @@ datasets (should be placed in data/)
 
       
 ## How to use:
-download weights as in previous paragraph and see *.ipynb files in notebooks
+download weights as in previous paragraph and see *.ipynb files in notebooks/ 
 
 
 
