@@ -27,16 +27,25 @@ So your folders should be like this:
     └── 
 
 NOT model weights (should be placed in data/NOT_model_weights):
+
    64x64:
+   
       https://disk.yandex.ru/d/YJqMaJlXg1cYRw
+      
       https://disk.yandex.ru/d/BJCgRZLIm9dfwQ
+      
    vae latent:
+   
       https://disk.yandex.ru/d/_OMZ0-JMZqJaZg
+      
       https://disk.yandex.ru/d/qn9P1pN8Zd3J7Q
       
 datasets (should be placed in data/)
+
    256x256:
+   
       source - https://disk.yandex.ru/d/Z_EOL0dUuxJYug
+      
       target - https://disk.yandex.ru/d/mOQXlEHNkSk8JQ
 
       
