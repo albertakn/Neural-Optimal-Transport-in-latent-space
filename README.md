@@ -1,7 +1,6 @@
 # Neural-Optimal-Transport-in-latent-space
 
-fill it out later
-
+Neural Optimal Transport (NOT) emerges as a promising solution for tackling unpaired style transfer challenges. This study demonstrates the application of the NOT approach on realistic and anime human faces. However, addressing high-resolution style transfer demands substantial computational resources. To circumvent this, we leverage Stable Diffusion auto-encoders, conducting experiments within latent spaces to efficiently solve the NOT problem. Our findings not only underscore the potential of NOT in the realm of unpaired style transfer but also present a computationally efficient strategy for handling high-resolution scenarios.
 
 
 
